@@ -1,3 +1,11 @@
-.text-justify{
-    text-align: justify;
+.text-justify {
+  text-align: justify;
+}
+.goog-te-banner-frame {
+  display: none;
+}
+.goog-te-gadget {
+  font-family: arial;
+  font-size: 11px;
+  color: #666;   
 }
