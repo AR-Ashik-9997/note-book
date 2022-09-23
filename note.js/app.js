@@ -32,6 +32,7 @@ const displayHtml = async () => {
   removeInnerText("cssUi");
   removeInnerText("jSUi");
   removeInnerText("gitUi");
+  removeInnerText("reactUi");
 };
 const displayCSS = async () => {
   const database = await loadData();
@@ -49,6 +50,7 @@ const displayCSS = async () => {
   removeInnerText("htmlUi");
   removeInnerText("jSUi");
   removeInnerText("gitUi");
+  removeInnerText("reactUi");
 };
 
 const displayGit = async () => {
@@ -67,6 +69,7 @@ const displayGit = async () => {
   removeInnerText("htmlUi");
   removeInnerText("cssUi");
   removeInnerText("jSUi");
+  removeInnerText("reactUi");
 };
 
 const displayJS = async () => {
@@ -91,6 +94,32 @@ const displayJS = async () => {
   removeInnerText("htmlUi");
   removeInnerText("cssUi");
   removeInnerText("gitUi");
+  removeInnerText("reactUi");
+};
+
+const displayReact = async () => {
+  const database = await loadData();
+  const jSUi = document.getElementById("reactUi");
+  removeInnerText("reactUi");
+  for (const data of database.React) {
+    function listed(lists) {
+      return `<ul>${lists
+        .map((list) => `<li class="fs-4">${list}</li>`)
+        .join("")}</ul>`;
+    }
+    const viewjSUi = document.createElement("div");
+    viewjSUi.innerHTML = `
+            <h2>${data.title}</h2>
+            <p class="text-justify fs-4">${data.description}</p>
+             ${data.list.length > 0 ? listed(data.list) : ""}           
+            <img src="${data.image}" alt="" class="img-fluid pt-3 py-3">        
+          `;
+    jSUi.appendChild(viewjSUi);
+  }
+  removeInnerText("htmlUi");
+  removeInnerText("cssUi");
+  removeInnerText("gitUi");
+  removeInnerText("jSUi");
 };
 displayUi();
 
@@ -98,29 +127,36 @@ function removeInnerText(elementById) {
   const element = document.getElementById(elementById);
   element.innerText = ``;
 }
-const btnRemove = (firstElement, secondElement, thirdElement) => {
+const btnRemove = (firstElement, secondElement, thirdElement,fourthElement) => {
   const element1 = document.getElementById(firstElement);
   const element2 = document.getElementById(secondElement);
   const element3 = document.getElementById(thirdElement);
+  const element4 = document.getElementById(fourthElement);
   element1.classList.remove("active");
   element2.classList.remove("active");
   element3.classList.remove("active");
+  element4.classList.remove("active");
 };
 document.getElementById("html").addEventListener("click", function () {
-  btnRemove("css", "js", "git");
+  btnRemove("css", "js", "git","react");
 });
 document.getElementById("css").addEventListener("click", function () {
   const addActive = document.getElementById("css");
   addActive.classList.add("active");
-  btnRemove("html", "js", "git");
+  btnRemove("html", "js", "git","react");
 });
 document.getElementById("js").addEventListener("click", function () {
   const addActive = document.getElementById("js");
   addActive.classList.add("active");
-  btnRemove("html", "css", "git");
+  btnRemove("html", "css", "git","react");
 });
 document.getElementById("git").addEventListener("click", function () {
   const addActive = document.getElementById("git");
   addActive.classList.add("active");
-  btnRemove("html", "css", "js");
+  btnRemove("html", "css", "js","react");
+});
+document.getElementById("react").addEventListener("click", function () {
+  const addActive = document.getElementById("react");
+  addActive.classList.add("active");
+  btnRemove("html", "css", "js","git");
 });
