@@ -5,23 +5,23 @@
     }
   ],
   "HTML": [
-     {
+    {
       "id": 0,
       "title": "What is HTML?",
       "description": "The Hyper Text Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
-      "image":""
-    },    
+      "image": ""
+    },
     {
       "id": 1,
       "title": "What are difference between HTML VS HTML5?",
-      "description":"",
-      "image":"./database/images/html/html-vs-html5.png"
+      "description": "",
+      "image": "./database/images/html/html-vs-html5.png"
     },
     {
       "id": 2,
       "title": "What is Semantic Tag?",
       "description": "The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.",
-      "image":""
+      "image": ""
     }
   ],
   "CSS": [
@@ -29,25 +29,25 @@
       "id": 0,
       "title": "What is CSS?",
       "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
-      "image":""
+      "image": ""
     },
     {
       "id": 1,
       "title": "How to text transparent to background-images?",
       "description": "The way to blur the background image a little below the text. The text color is !important. Here this code is background-image:linear-gradient(to right ,rgba(26,26,26,1),,transparent),url(image-name.jpg);color: white!important; /* this is text color on background-image.*/",
-      "image":""
+      "image": ""
     },
     {
       "id": 2,
       "title": "Show the display: inline CSS",
       "description": "",
-      "image":"./database/images/css/inline.png"
+      "image": "./database/images/css/inline.png"
     },
     {
       "id": 3,
       "title": "Show the display: block CSS",
       "description": "",
-      "image":"./database/images/css/block.png"
+      "image": "./database/images/css/block.png"
     },
     {
       "id": 4,
@@ -59,400 +59,516 @@
       "id": 5,
       "title": "What is the difference between flexbox and CSS grid?",
       "description": "CSS Grid and Flexbox are layout models that share similarities and can be used together. The key difference is that CSS Grid can be used to create two-dimensional layouts, while Flexbox can only be used to create one-dimensional layouts. That means you can place components along the X- and Y-axis in CSS Grid and only one axis in Flexbox.",
-      "image":""
+      "image": ""
     },
     {
       "id": 6,
       "title": "What is the difference between Bootstrap and Tailwind framework?",
       "description": "Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.",
-      "image":""
-    }    
+      "image": ""
+    }
   ],
   "Git": [
     {
       "id": 0,
       "title": "What is Git?",
       "description": "Git ( Global Information Tracker ) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
-      "image":""
+      "image": ""
     },
     {
       "id": 1,
       "title": "What are the advantages of using Git?",
       "description": "",
-      "image":"./database/images/git/advantages of git.png"
+      "image": "./database/images/git/advantages of git.png"
     },
     {
       "id": 2,
       "title": "What do you understand by the term ‘Version Control System’?",
       "description": "Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.",
-      "image":""
+      "image": ""
     },
     {
       "id": 3,
       "title": "What’s the difference between Git and GitHub?",
       "description": "",
-      "image":"./database/images/git/git vs github.png"
+      "image": "./database/images/git/git vs github.png"
     },
     {
       "id": 4,
       "title": "Name a few Git commands with their function? ",
       "description": "",
-      "image":"./database/images/git/git command.png"
+      "image": "./database/images/git/git command.png"
     },
     {
       "id": 5,
       "title": "Difference between git fetch and git pull?",
       "description": "",
-      "image":"./database/images/git/git fetch vs git pull.png"
+      "image": "./database/images/git/git fetch vs git pull.png"
     }
   ],
-  "JavaScript":[
+  "JavaScript": [
     {
       "id": 0,
       "title": "What is JavaScript?",
       "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.[JavaScript] https://developer.mozilla.org/en-US/docs/Glossary/JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
       "id": 1,
       "title": "How does JS works?",
       "description": "When the browser loads the page, the browser has a built-in interpreter that reads the JavaScript code it finds in the page and runs it.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
       "id": 2,
       "title": "What is DOM?",
       "description": "The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.",
-      "list":[],
-      "image":""      
+      "list": [],
+      "image": ""
     },
     {
       "id": 3,
       "title": "What are the different ways to get an element from DOM?",
       "description": "",
-      "list":["Get HTML element by Id","Get HTML element by className","Get HTML element by Name","Get HTML element by tagName","Get HTML element by CSS Selector"],
-      "image":""      
+      "list": [
+        "Get HTML element by Id",
+        "Get HTML element by className",
+        "Get HTML element by Name",
+        "Get HTML element by tagName",
+        "Get HTML element by CSS Selector"
+      ],
+      "image": ""
     },
     {
-      "id":4,
-      "title":"What’s the difference between an Event Handler and an Event Listener?",
+      "id": 4,
+      "title": "What’s the difference between an Event Handler and an Event Listener?",
       "description": "",
-      "list":[],
-      "image":"./database/images/javascript/event to listenner.jpg"
-    },    
+      "list": [],
+      "image": "./database/images/javascript/event to listenner.jpg"
+    },
     {
-      "id":5,
-      "title":"What does “event bubbling” mean in JavaScript?",
+      "id": 5,
+      "title": "What does “event bubbling” mean in JavaScript?",
       "description": "Event bubbling is a method of event propagation in the HTML DOM API when an event is in an element inside another element, and both elements have registered a handle to that event. It is a process that starts with the element that triggered the event and then bubbles up to the containing elements in the hierarchy.",
-      "list":[],
-      "image":""
-    },    
+      "list": [],
+      "image": ""
+    },
     {
-      "id":6,
-      "title":"Can you explain the different types of events available in JavaScript?",
+      "id": 6,
+      "title": "Can you explain the different types of events available in JavaScript?",
       "description": "",
-      "list":[],
-      "image":"./database/images/javascript/event description.png"
-    },    
+      "list": [],
+      "image": "./database/images/javascript/event description.png"
+    },
     {
-      "id":7,
-      "title":"What’s the difference between event.preventDefault() and event.stopPropagation()?",
+      "id": 7,
+      "title": "What’s the difference between event.preventDefault() and event.stopPropagation()?",
       "description": "preventDefault() prevents the browsers default behaviour, but does not stop the event from bubbling up the DOM. The event.stopPropagation() prevents the event from bubbling up the DOM, but does not stop the browsers default behaviour.",
-      "list":[],
-      "image":""
-    },    
-    
+      "list": [],
+      "image": ""
+    },
+
     {
-      "id": 8,      
+      "id": 8,
       "title": "What is ES6? Have you ever used anything from ES6?",
       "description": "ES6 or ECMAScript 2015 is the 6th version of the ECMAScript programming language. ECMAScript is the standardization of Javascript which was released in 2015, and subsequently renamed as ECMAScript 2015.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 9,      
+      "id": 9,
       "title": "Explain the difference between var, let and const?",
       "description": "",
-      "list":[],
-      "image":"./database/images/javascript/var let const.png"
+      "list": [],
+      "image": "./database/images/javascript/var let const.png"
     },
     {
-      "id": 10,      
+      "id": 10,
       "title": "What is the arrow function, and how to create it?",
       "description": "Arrow function is one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner way compared to regular functions. <strong>For example, This function // function expression let x = function(x, y) { return x * y; }</strong>",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 11,      
+      "id": 11,
       "title": "Give an example of an Arrow function in ES6? List down its advantages?",
       "description": "",
-      "list":["One is that it's a shorter syntax and thus requires less code.","The main benefit is that it removes the several pain points associated with this operator."],
-      "image":"./database/images/javascript/arrow function.png"
+      "list": [
+        "One is that it's a shorter syntax and thus requires less code.",
+        "The main benefit is that it removes the several pain points associated with this operator."
+      ],
+      "image": "./database/images/javascript/arrow function.png"
     },
     {
-      "id": 12,      
+      "id": 12,
       "title": "Discuss spread operator in ES6 with an example?",
       "description": "",
-      "list":["The spread operator eventually takes any iterable object such as an array or any other iterable object and expands the values of that iterable object individually.","That is, it basically spreads out all the elements of an array, and further after spreading the array elements we could perform any operations with those elements like concatenation, copying the elements of an array into another array, and so on."],
-      "image":"./database/images/javascript/spread operator.png"
+      "list": [
+        "The spread operator eventually takes any iterable object such as an array or any other iterable object and expands the values of that iterable object individually.",
+        "That is, it basically spreads out all the elements of an array, and further after spreading the array elements we could perform any operations with those elements like concatenation, copying the elements of an array into another array, and so on."
+      ],
+      "image": "./database/images/javascript/spread operator.png"
     },
     {
-      "id": 13,      
+      "id": 13,
       "title": "What do you understand about default parameters?",
       "description": "The default parameter is a way to set default values for function parameters a value is not passed in (ie. it is undefined ). In a function, Ii a parameter is not provided, then its value becomes undefined. In this case, the default value that we specify is applied by the compiler.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 14,      
+      "id": 14,
       "title": "What are template literals in ES6?",
       "description": "Template literals are a new feature introduced in ECMAScript 2015/ ES6. It provides an easy way to create multiline strings and perform string interpolation. Template literals are string literals and allow embedded expressions. Before ES6, template literals were called template strings.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 15,      
+      "id": 15,
       "title": "Tell us the difference between arrow and regular function?",
       "description": "",
-      "list":["Regular functions created using function declarations or expressions are constructible and callable. Since regular functions are constructible, they can be called using the new keyword.", "However, the arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions."],
-      "image":""
+      "list": [
+        "Regular functions created using function declarations or expressions are constructible and callable. Since regular functions are constructible, they can be called using the new keyword.",
+        "However, the arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions."
+      ],
+      "image": ""
     },
     {
-      "id": 16,      
+      "id": 16,
       "title": "What’s the difference between map, foreach, filter?",
       "description": "",
-      "list":["the map creates a new array by transforming every element in an array individually. the filter creates a new array by removing elements that don't belong.","The forEach() method doesn’t return anything hence the method chaining technique cannot be applied here","the map() method, we can chain the other array Instance methods i.e returned value of the map() method invokes the next method in the chain."],
-      "image":""
+      "list": [
+        "the map creates a new array by transforming every element in an array individually. the filter creates a new array by removing elements that don't belong.",
+        "The forEach() method doesn’t return anything hence the method chaining technique cannot be applied here",
+        "the map() method, we can chain the other array Instance methods i.e returned value of the map() method invokes the next method in the chain."
+      ],
+      "image": ""
     },
     {
-      "id": 17,      
+      "id": 17,
       "title": "What’s the difference between filter and find?",
       "description": "",
-      "list":["The find() method is used to find all the descendant elements of the selected element. It finds the element in the DOM tree by traversing through the root to the leaf.","The filter() method is used to filter all the elements and returns the element that matches and the element that do not match are removed."],
-      "image":""
+      "list": [
+        "The find() method is used to find all the descendant elements of the selected element. It finds the element in the DOM tree by traversing through the root to the leaf.",
+        "The filter() method is used to filter all the elements and returns the element that matches and the element that do not match are removed."
+      ],
+      "image": ""
     },
     {
-      "id": 18,      
+      "id": 18,
       "title": "What is the difference between for..of and for..in?",
       "description": "",
-      "list":["for..of iterates over the values of an iterable object. Examples of iterable objects are arrays, strings, and novelists.","for..in iterates over all enumerable property keys of an object. for..of iterates over the values of an iterable object."],
-      "image":""
+      "list": [
+        "for..of iterates over the values of an iterable object. Examples of iterable objects are arrays, strings, and novelists.",
+        "for..in iterates over all enumerable property keys of an object. for..of iterates over the values of an iterable object."
+      ],
+      "image": ""
     },
     {
-      "id": 19,      
+      "id": 19,
       "title": "How do you empty an array?",
       "description": "",
-      "list":[],
-      "image":"./database/images/javascript/emptyArray.png"
+      "list": [],
+      "image": "./database/images/javascript/emptyArray.png"
     },
     {
-      "id": 20,      
+      "id": 20,
       "title": "Difference between class and object?",
       "description": "",
-      "list":[],
-      "image":"./database/images/javascript/object and class.png"
+      "list": [],
+      "image": "./database/images/javascript/object and class.png"
     },
     {
-      "id": 21,      
+      "id": 21,
       "title": "What is a Prototype chain? Or how does inheritance work in JavaScript?",
       "description": "The prototype object has prototype of its own and so on until an object is reached with null as its prototype. So, this linking with one another is called as prototype chain.",
-      "list":["Prototypal Inheritance is a feature in javascript used to add methods and properties to objects. It is a method by which an object can inherit the properties and methods of another object."],
-      "image":""
+      "list": [
+        "Prototypal Inheritance is a feature in javascript used to add methods and properties to objects. It is a method by which an object can inherit the properties and methods of another object."
+      ],
+      "image": ""
     },
     {
-      "id": 22,      
+      "id": 22,
       "title": "What does destructing do in es6?",
       "description": "Destructuring is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. That is, we can extract data from arrays and objects and assign them to variables.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 23,      
+      "id": 23,
       "title": "Is optional chaining is same as ternary operator?",
       "description": "JavaScript's Optional Chaining Operator, also known as the conditional ternary operator.",
-      "list":[],
-      "image":""
+      "list": [],
+      "image": ""
     },
     {
-      "id": 24,      
+      "id": 24,
       "title": "What do you mean by dot notation and bracket notation? When should you use dot notation or bracket notation?",
       "description": "The dot notation is used mostly as it is easier to read and comprehend and also less verbose. The main difference between dot notation and bracket notation is that the bracket notation allows us to access object properties using variable",
-      "list":["Dot notation is one way to access a property of an object. To use dot notation, write the name of the object, followed by a dot (.), followed by the name of the property.","use bracket notation, write the name of the object, followed by brackets [ ] . Inside the brackets, write the property name as a string. Bracket notation, unlike dot notation, can be used with variables."],
-      "image":""
+      "list": [
+        "Dot notation is one way to access a property of an object. To use dot notation, write the name of the object, followed by a dot (.), followed by the name of the property.",
+        "use bracket notation, write the name of the object, followed by brackets [ ] . Inside the brackets, write the property name as a string. Bracket notation, unlike dot notation, can be used with variables."
+      ],
+      "image": ""
     },
     {
-      "id": 25,      
+      "id": 25,
       "title": "How to compare if two objects are same in javascript?",
       "description": "In JavaScript, we cannot directly compare two objects by equality operators (double equals == or triple equals ===) to see whether they are equal or not. Comparing two objects like this results in false even if they have the same data.",
-      "list":["JSON.stringify(obj1) === JSON.stringify(obj2)"],
-      "image":""
+      "list": ["JSON.stringify(obj1) === JSON.stringify(obj2)"],
+      "image": ""
     },
     {
-      "id": 26,      
+      "id": 26,
       "title": "What is the difference between bind, call, apply?",
       "description": "",
-      "list":"",
-      "image":"./database/images/javascript/bind-call-apply.png"
+      "list": "",
+      "image": "./database/images/javascript/bind-call-apply.png"
     },
     {
-      "id": 27,      
+      "id": 27,
       "title": "How does the this keyword work in JavaScript?",
       "description": "In JavaScript, this keyword refers to an object. Which object depends on how this is being invoked (used or called)? This keyword refers to different objects depending on how it is used: In an object method, this refers to the object.",
-      "list":"",
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 28,      
+      "id": 28,
       "title": "Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript?",
       "description": "",
-      "list":"",
-      "image":"./database/images/javascript/primitive-nonprimitive.png"
+      "list": "",
+      "image": "./database/images/javascript/primitive-nonprimitive.png"
     },
     {
-      "id": 29,      
+      "id": 29,
       "title": "What are the Truthy and Falsy values? Give me some examples.",
       "description": "Truthy values are expressions that evaluate to the boolean value of true, and falsy values are expressions that evaluate to the boolean value of false.",
-      "list":"",
-      "image":"./database/images/javascript/truthy-falsy.jpeg"
+      "list": "",
+      "image": "./database/images/javascript/truthy-falsy.jpeg"
     },
     {
-      "id": 30,      
+      "id": 30,
       "title": "What is the difference between null and undefined?",
       "description": "",
-      "list":"",
-      "image":"./database/images/javascript/undefind-null.jpg"
+      "list": "",
+      "image": "./database/images/javascript/undefind-null.jpg"
     },
     {
-      "id": 30,      
+      "id": 30,
       "title": "What are the differences between double equal (==) and triple equal (===)?",
       "description": "Double Equals ( == ) checks for value equality only. It inherently does type coercion. This means that before checking the values, it converts the types of the variables to match each other. On the other hand, Triple Equals ( === ) does not perform type coercion.",
-      "list":"",
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 31,      
+      "id": 31,
       "title": "What is scope in JavaScript?",
       "description": "Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript.",
-      "list":"",
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 32,      
+      "id": 32,
       "title": "Define block scope and global scope?",
       "description": "",
-      "list":["The variables defined outside of any function or curly brackets are known as global variables and have global scope. <strong>Global scope</strong> means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.","<strong>Block scope</strong> is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}."],
-      "image":""
+      "list": [
+        "The variables defined outside of any function or curly brackets are known as global variables and have global scope. <strong>Global scope</strong> means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.",
+        "<strong>Block scope</strong> is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}."
+      ],
+      "image": ""
     },
     {
-      "id": 32,      
+      "id": 32,
       "title": "What is hoisting in JavaScript?",
       "description": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, or classes to the top of their scope, prior to execution of the code.",
-      "list":"",
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 33,      
+      "id": 33,
       "title": "What is hoisting in JavaScript?",
       "description": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables, or classes to the top of their scope, prior to execution of the code.",
-      "list":"",
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 34,      
+      "id": 34,
       "title": "How to use the JavaScript callback function?",
       "description": "A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. ",
-      "list":"",                                                  
-      "image":"./database/images/javascript/callback.png"
+      "list": "",
+      "image": "./database/images/javascript/callback.png"
     },
     {
-      "id": 35,      
+      "id": 35,
       "title": "Explain closure in JavaScript?",
       "description": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",
-      "list":"",                                                  
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 36,      
+      "id": 36,
       "title": "Explain closure in JavaScript?",
       "description": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",
-      "list":"",                                                  
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 37,      
+      "id": 37,
       "title": "Explain closure in JavaScript?",
       "description": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",
-      "list":["<strong>Pass by Value:</strong> The method parameter values are copied to another variable and then the copied object is passed, that's why it's called pass by value."," <strong>Pass by Reference:</strong> An alias or reference to the actual parameter is passed to the method, that's why it's called pass by reference."],                                                  
-      "image":""
+      "list": [
+        "<strong>Pass by Value:</strong> The method parameter values are copied to another variable and then the copied object is passed, that's why it's called pass by value.",
+        " <strong>Pass by Reference:</strong> An alias or reference to the actual parameter is passed to the method, that's why it's called pass by reference."
+      ],
+      "image": ""
     }
   ],
-  "React":[
+  "React": [
     {
-      "id": 1,      
+      "id": 1,
       "title": "What is React?",
       "description": "ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components. It is an open-source, component-based front-end library that is responsible only for the view layer of the application. ",
-      "list":"",                                                  
-      "image":""
+      "list": "",
+      "image": ""
     },
     {
-      "id": 2,      
+      "id": 2,
       "title": "What is the difference between virtual dom and real dom?",
-      "description":"",
-      "list":["<strong>Real DOM </strong> is an interface that allows the script to update the content, style, and structure of the document.","<strong>Virtual DOM</strong> is just like a blueprint of a machine, can do the changes in the blueprint but those changes will not directly apply to the machine"],                                                 
-      "image":"./database/images/reactjs/real-virtual-dom.png"
+      "description": "",
+      "list": [
+        "<strong>Real DOM </strong> is an interface that allows the script to update the content, style, and structure of the document.",
+        "<strong>Virtual DOM</strong> is just like a blueprint of a machine, can do the changes in the blueprint but those changes will not directly apply to the machine"
+      ],
+      "image": "./database/images/reactjs/real-virtual-dom.png"
     },
     {
-      "id": 3,      
+      "id": 3,
       "title": "What is JSX?",
-      "description":"It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like.",
-      "list":"",                                                  
-      "image":""
+      "description": "It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like.",
+      "list": "",
+      "image": ""
     },
     {
-      "id": 4,      
+      "id": 4,
       "title": "What is the difference between state and props?",
-      "description":"",
-      "list":"",                                                  
-      "image":"./database/images/reactjs/state-props.jpeg"
+      "description": "",
+      "list": "",
+      "image": "./database/images/reactjs/state-props.jpeg"
     },
     {
-      "id": 5,      
+      "id": 5,
       "title": "What is the difference between class component and functional component?",
-      "description":"",
-      "list":"",                                                  
-      "image":"./database/images/reactjs/functional-class.png"
+      "description": "",
+      "list": "",
+      "image": "./database/images/reactjs/functional-class.png"
     },
     {
-      "id": 6,      
+      "id": 6,
       "title": "What are react lifecycle methods?",
-      "description":"",
-      "list":"",                                                  
-      "image":"./database/images/reactjs/lifecycle.png"
+      "description": "",
+      "list": "",
+      "image": "./database/images/reactjs/lifecycle.png"
     },
     {
-      "id": 7,      
+      "id": 7,
       "title": "What are hooks? Tell us the role of useEffect and useState.",
-      "description":"Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Hooks are backwards-compatible.",
-      "list":["<strong>The useState hook</strong> is used for storing variables that are part of your application's state and will change as the user interacts with your website.","<strong>The useEffect hook</strong>allows components to react to lifecycle events such as mounting to the DOM, re-rendering, and unmounting."],                                                  
-      "image":""
+      "description": "Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. Hooks are backwards-compatible.",
+      "list": [
+        "<strong>The useState hook</strong> is used for storing variables that are part of your application's state and will change as the user interacts with your website.",
+        "<strong>The useEffect hook</strong>allows components to react to lifecycle events such as mounting to the DOM, re-rendering, and unmounting."
+      ],
+      "image": ""
     },
     {
-      "id": 8,      
+      "id": 8,
       "title": "What is diff algorithm?",
-      "description":"A diff algorithm outputs the set of differences between two inputs. These algorithms are the basis of a number of commonly used developer tools. Yet understanding the inner workings of diff algorithms is rarely necessary to use said tools.",
-      "list":"",                                                  
-      "image":""
+      "description": "A diff algorithm outputs the set of differences between two inputs. These algorithms are the basis of a number of commonly used developer tools. Yet understanding the inner workings of diff algorithms is rarely necessary to use said tools.",
+      "list": "",
+      "image": ""
     },
     {
-      "id": 9,      
+      "id": 9,
       "title": "What is the difference between attribute and property?",
-      "description":"<strong>Attribute</strong> is a quality or object that we attribute to someone or something. For example, the scepter is an attribute of power and statehood.<strong>Property</strong> is a quality that exists without any attribution.",
-      "list":["For example, clay has adhesive qualities; i.e, a property of clay is its adhesive quality."],                                                  
-      "image":""
+      "description": "<strong>Attribute</strong> is a quality or object that we attribute to someone or something. For example, the scepter is an attribute of power and statehood.<strong>Property</strong> is a quality that exists without any attribution.",
+      "list": [
+        "For example, clay has adhesive qualities; i.e, a property of clay is its adhesive quality."
+      ],
+      "image": ""
+    },
+    {
+      "id": 10,
+      "title": "What are the features of React?",
+      "description": "",
+      "list": [
+        "JSX",
+        "Components",
+        "One-way Data Binding",
+        "Virtual DOM",
+        "Simplicity",
+        "Performance"
+      ],
+      "image": ""
+    },
+    {
+      "id": 11,
+      "title": "Can web browsers read JSX directly?",
+      "description": "Browsers can't read JSX because there is no inherent implementation for the browser engines to read and understand them. JSX is not intended to be implemented by the engines or browsers, it is intended to be used by various transpilers to transform these JSX into valid JavaScript code.",
+      "list": "",
+      "image": ""
+    },
+    {
+      "id": 12,
+      "title": "What is an event in React?",
+      "description": "An event is an action that could be triggered as a result of the user action or system generated event.",
+      "list":"",
+      "image": ""
+    },
+    {
+      "id": 13,
+      "title": "What are the components of React?",
+      "description": "",
+      "list": [
+        "<strong>Functional Components:</strong> Functional components are simply javascript functions. We can create a functional component in React by writing a javascript function.",
+        "<strong>Class Components:</strong> The class components are a little more complex than the functional components."
+      ],
+      "image": ""
+    },
+    {
+      "id": 14,
+      "title": "What are props in React?",
+      "description": "Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.",
+      "list": "",
+      "image": ""
+    },
+    {
+      "id": 15,
+      "title": "How do you pass props between components?",
+      "description": "",
+      "list": "",
+      "image": "./database/images/reactjs/props.png"
+    },
+    {
+      "id": 16,
+      "title": "What is Side Effect in React?",
+      "description": "Sometimes our components reach outside the React data-flow process and directly interact with other APIs, most commonly in the browser. An action that impinges on the outside world in some way is called a side effect.",
+      "list": "",
+      "image": ""
+    },
+    {
+      "id": 17,
+      "title": "What are stateful components?",
+      "description": "In React, a stateful component is a component that holds some state. Stateless components, by contrast, have no state. Note that both types of components can use props.",
+      "list": "",
+      "image": ""
+    },
+    {
+      "id": 18,
+      "title": "What are stateless components?",
+      "description": "Stateless components are those components which don’t have any state at all, which means you can’t use this.setState inside these components. It is like a normal function with no render method. It has no lifecycle, so it is not possible to use lifecycle methods such as componentDidMount and other hooks.",
+      "list": "",
+      "image": ""
     }
-
   ]
 }
