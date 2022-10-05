@@ -110,7 +110,7 @@
     {
       "id": 0,
       "title": "What is JavaScript?",
-      "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.[JavaScript] https://developer.mozilla.org/en-US/docs/Glossary/JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
+      "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages.JavaScript <a href='https://developer.mozilla.org/en-US/docs/Glossary/JavaScript'>https://developer.mozilla.org/en-US/docs/Glossary/JavaScript</a> is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.",
       "list": [],
       "image": ""
     },
